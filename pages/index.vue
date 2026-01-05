@@ -364,7 +364,7 @@ onMounted(() => {
               Az ajánlatkérés elküldésével automatikusan elfogadja az
               <NuxtLink
                 class="supage-content__nlink"
-                to="/adatvedelmi-tajekoztato"
+                to="/"
                 >Adatvédelmi Szabályzatot.</NuxtLink
               >
             </i>
