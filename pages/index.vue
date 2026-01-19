@@ -50,7 +50,7 @@ const submitForm = async (event) => {
 
   try {
     const webhookUrl =
-      'https://services.leadconnectorhq.com/hooks/B7BReg5ssaEIc5vHLzo0/webhook-trigger/794b8f30-bb72-4eb9-94d8-e779c8780fd0'
+      'https://services.leadconnectorhq.com/hooks/B7BReg5ssaEIc5vHLzo0/webhook-trigger/2eaace24-399b-4e5e-af21-05577a707498'
 
     // ✅ Kattintás-azonosítók begyűjtése
     const { gclid, wbraid, gbraid } = getClickIds()
@@ -364,7 +364,7 @@ onMounted(() => {
               Az ajánlatkérés elküldésével automatikusan elfogadja az
               <NuxtLink
                 class="supage-content__nlink"
-                to="/"
+                to="/adatvedelmi-tajekoztato"
                 >Adatvédelmi Szabályzatot.</NuxtLink
               >
             </i>
